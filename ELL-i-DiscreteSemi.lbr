@@ -355,8 +355,8 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="2.25" y1="-1.825" x2="2.25" y2="-1.25" width="0.254" layer="21" curve="-1.904406"/>
 <wire x1="2.25" y1="1.825" x2="2.25" y2="1.25" width="0.254" layer="21"/>
 <wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
-<smd name="1" x="-2.2" y="0" dx="2" dy="2" layer="1"/>
-<smd name="2" x="2.2" y="0" dx="2" dy="2" layer="1"/>
+<smd name="C" x="-2.2" y="0" dx="2" dy="2" layer="1"/>
+<smd name="A" x="2.2" y="0" dx="2" dy="2" layer="1"/>
 <text x="-2.75" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.75" y="-3.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
@@ -784,8 +784,8 @@ Surface-Mounted Device (SMD) plastic package using Trench MOSFET technology
 <devices>
 <device name="" package="SOD-323">
 <connects>
-<connect gate="G$1" pin="A" pad="C"/>
-<connect gate="G$1" pin="C" pad="A"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -816,8 +816,8 @@ General-purpose diode for high-speed switching.
 <devices>
 <device name="J" package="SOD-323">
 <connects>
-<connect gate="G$1" pin="A" pad="C"/>
-<connect gate="G$1" pin="C" pad="A"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -841,8 +841,8 @@ General-purpose diode for high-speed switching.
 <devices>
 <device name="" package="SMA">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
